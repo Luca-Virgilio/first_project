@@ -36,13 +36,13 @@ class _LearnFlutterPageState extends State<LearnFlutterPage> {
               margin: const EdgeInsets.all(10),
               padding: const EdgeInsets.all(10),
               width: double.infinity,
+              color: Colors.blue,
               child: const Center(
                 child: Text(
                   'This is a title',
                   style: TextStyle(color: Colors.white),
                 ),
               ),
-              color: Colors.blue,
             ),
             ElevatedButton(
               style: ElevatedButton.styleFrom(
